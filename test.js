@@ -12,7 +12,7 @@ multichain.getInfo((err, info) => {
     }
     console.log(info);
 })
-
+/*
 multichain.issue({address: someAddress, asset: "zcoin", qty: 50000, units: 0.01, details: {hello: "world"}}, (err, res) => {
     console.log(res)
 })
@@ -35,4 +35,4 @@ multichain.getRawTransaction({txid: someTxId}, (err, tx) => {
         console.log(dTx)
     })
 })
-
+*/
