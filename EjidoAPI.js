@@ -12,6 +12,7 @@ const list_all_ejidos = function(req, res) {
       res.send(err);
     res.json(task);
   });*/
+  
   res.json({bark:"hello"});
 
 };
